@@ -1,0 +1,68 @@
+.nodisplay {
+    display: none;
+}
+
+.cmd-style {
+    height: 100vh;
+    background-color: #0D0D0D;
+}
+
+.postal-style {
+    background-color: #F3F3F3;
+    color: #F3F3F3;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.cmd-textbox {
+    color: #F3F3F3;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Lucida Console";
+    z-index: 1;
+}
+
+.input-textbox {
+    position: fixed;
+    align-content: center;
+    bottom: 0;
+    width: 48%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .wrong-answer {
+     color: red;
+ }
+
+ .divide-equals {
+    text-align: center;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.symbol-div h1 {
+     font-size: 120px;
+ }
+
+.name-div h1 {
+    font-size: 120px;
+}
+
+.postal-style-background {
+    background-image: url("../img/eiffel-tower.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    text-shadow: 0 0 10px #0D0D0D;
+    z-index: 10;
+}
